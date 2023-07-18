@@ -6,18 +6,24 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: CountdownView()) {
+                    Text("Start Countdown")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+            }
+            .navigationTitle("My App")
         }
-        .padding()
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

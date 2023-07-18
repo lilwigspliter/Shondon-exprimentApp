@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23BBB30A2A65EA4600BE7A5D /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BBB3092A65EA4600BE7A5D /* CountdownViewController.swift */; };
+		23BBB30C2A65ECE500BE7A5D /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BBB30B2A65ECE500BE7A5D /* CountdownView.swift */; };
 		23E2A6A22A65E82E00C20C15 /* ShondonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2A6A12A65E82E00C20C15 /* ShondonApp.swift */; };
 		23E2A6A42A65E82E00C20C15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2A6A32A65E82E00C20C15 /* ContentView.swift */; };
 		23E2A6A62A65E83000C20C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E2A6A52A65E83000C20C15 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23BBB3092A65EA4600BE7A5D /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		23BBB30B2A65ECE500BE7A5D /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		23E2A69E2A65E82E00C20C15 /* Shondon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shondon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E2A6A12A65E82E00C20C15 /* ShondonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShondonApp.swift; sourceTree = "<group>"; };
 		23E2A6A32A65E82E00C20C15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 			children = (
 				23E2A6A12A65E82E00C20C15 /* ShondonApp.swift */,
 				23E2A6A32A65E82E00C20C15 /* ContentView.swift */,
+				23BBB3092A65EA4600BE7A5D /* CountdownViewController.swift */,
+				23BBB30B2A65ECE500BE7A5D /* CountdownView.swift */,
 				23E2A6A52A65E83000C20C15 /* Assets.xcassets */,
 				23E2A6A72A65E83000C20C15 /* Shondon.entitlements */,
 				23E2A6A82A65E83000C20C15 /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BBB30A2A65EA4600BE7A5D /* CountdownViewController.swift in Sources */,
 				23E2A6A42A65E82E00C20C15 /* ContentView.swift in Sources */,
+				23BBB30C2A65ECE500BE7A5D /* CountdownView.swift in Sources */,
 				23E2A6A22A65E82E00C20C15 /* ShondonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
